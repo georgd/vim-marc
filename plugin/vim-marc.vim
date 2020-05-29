@@ -1,6 +1,6 @@
 "Tutorial Used
 "candidtim.github.io/vim/2017/08/11/write-vim-plugin-in-python.html
-if !has("python3")
+if !has("python3") && !has("nvim")
     echo "VIM has to be compiled with +python3 for vim-marc to work"
     finish
 endif
