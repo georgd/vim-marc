@@ -47,6 +47,20 @@ If the documentation is not loading, compile a help tags file `:helptags ALL`
 ## Dependencies
 Tested on Vim version 8.1 and Python version 3.5.2 or later.
 
+### vim-marc Neovim
+
+Neovim requires https://github.com/neovim/pynvim:
+
+```
+pip3 install pynvim
+```
+
+After updating Neovim, pynvim needs to be updated as well:
+
+```
+pip3 install --upgrade pynvim
+```
+
 ## Contribution
 Pull requests welcome!
 Please feel free to rate the plugin on [vim.org](https://www.vim.org/scripts/script.php?script_id=5809) if you like it!
